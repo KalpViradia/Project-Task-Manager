@@ -1,7 +1,3 @@
-Here's a tailored `README.md` file for your **React-based Task Manager** project with authentication and MongoDB integration:
-
----
-
 # 🗂️ Project Task Manager
 
 A full-stack task management app built with **React**, **Node.js**, and **MongoDB**. This app allows users to register, log in, and manage their personal task lists — including creating, updating, and deleting tasks. Each user sees only their own tasks.
