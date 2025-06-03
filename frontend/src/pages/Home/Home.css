@@ -1,0 +1,43 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.home-card {
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.home-title {
+    color: #333;
+    margin-bottom: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.home-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.home-button {
+    padding: 0.75rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-login {
+    background-color: #007bff;
+}
+
+.home-register {
+    background-color: #28a745;
+}

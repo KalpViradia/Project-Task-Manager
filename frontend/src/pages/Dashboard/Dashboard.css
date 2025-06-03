@@ -1,0 +1,144 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+.dashboard-title {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.dashboard-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-input,
+.dashboard-textarea,
+.dashboard-date,
+.dashboard-select,
+.dashboard-edit-input,
+.dashboard-edit-textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.dashboard-textarea,
+.dashboard-edit-textarea {
+    resize: vertical;
+}
+
+.dashboard-add-button,
+.dashboard-save-button,
+.dashboard-edit-button,
+.dashboard-delete-button {
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.dashboard-add-button,
+.dashboard-save-button {
+    background-color: #2ecc71;
+}
+
+.dashboard-edit-button {
+    background-color: #3498db;
+}
+
+.dashboard-delete-button {
+    background-color: #e74c3c;
+}
+
+.dashboard-task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dashboard-task-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-task-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.dashboard-task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-task-title {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.2rem;
+}
+
+.dashboard-task-description {
+    margin: 0;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.dashboard-task-meta {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.dashboard-priority-badge {
+    text-transform: capitalize;
+}
+
+.dashboard-task-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.dashboard-edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dashboard-form-row {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.dashboard-error {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 1rem;
+}
